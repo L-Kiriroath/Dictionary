@@ -1,18 +1,18 @@
-#Personal_dictionary
+# Personal_dictionary
 This project aims to create a dictionary platform personalized to you. 
 
-##1. Project Description
+## 1. Project Description
 The project takes user input theough the terminal. Currently, you are able to add words, part of speach, and definition, and you can view those words which is arranged alphabetically.
 - This project uses postgres as a datbase to store your words 
 - It uses a while loop which means that it will run until the user tell it to stop
 
-##2. How to Install and Run the Project
+## 2. How to Install and Run the Project
    1. install postgres and psycopg2 in your machine before running this program
    link to installation guide: [How to Run PostgreSQL in Visual Studio Code](https://youtu.be/QLsDKboLxjU)
    2. run the Dict_DB code once to innitialize the database 
    3. run the Dictionary code to use the app
 
-##3. How to Use the Dictionary
+## 3. How to Use the Dictionary
    1.the user will be greeted with a menu 
         Welcome to your personal dictionary
         You can view the dictionary by typing "view"
