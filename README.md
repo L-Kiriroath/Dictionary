@@ -23,7 +23,7 @@ You can quot the dictionary by typing "quit"
 '''
 ### 2. the option view will show your whole dictionary
 '''
-: *view*
+ *view*
 
 
 1. Able (Adjective) having the power, skill, means, or opportunity to do something
@@ -35,7 +35,7 @@ You can quot the dictionary by typing "quit"
 
 ### 3. the add option will let you add words and it's definition and part of speach
 '''
-: *add*
+ *add*
 word:
 Tyep N for Noun, ADJ for Adjective, AV for Adverb, V for Verb, PREP for Preposition, Pro for Pronouns, CON for Conjunction, IN for Injection
 
@@ -47,6 +47,6 @@ Drink (Verb) the action of consuming water
 
 ### 4. The quit option will break the loop and stop the program
 '''
-: *quit*
+ *quit*
 PS D:\python>
 '''
