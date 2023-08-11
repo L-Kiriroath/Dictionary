@@ -2,12 +2,12 @@
 This project aims to create a dictionary platform personalized to you. 
 
 ## 1. Project Description
-The project takes user input theough the terminal. Currently, you are able to add words, part of speach, and definition, and you can view those words which is arranged alphabetically.
-- This project uses postgres as a datbase to store your words 
+The project takes user input though the terminal. Currently, you are able to add words, part of speech, and definition, and you can view those words which is arranged alphabetically.
+- This project uses postgres as a database to store your words 
 - It uses a while loop which means that it will run until the user tell it to stop
 
 ## 2. How to Install and Run the Project
-1. install postgres and psycopg2 in your machine before running this program
+1.  install postgres and psycopg2 in your machine before running this program
 link to installation guide: [How to Run PostgreSQL in Visual Studio Code](https://youtu.be/QLsDKboLxjU)
 2. run the Dict_DB code once to innitialize the database 
 3. run the Dictionary code to use the app
@@ -18,7 +18,7 @@ link to installation guide: [How to Run PostgreSQL in Visual Studio Code](https:
 Welcome to your personal dictionary
 You can view the dictionary by typing "view"
 You can add word to the dictionary by typing "add"
-You can quot the dictionary by typing "quit"
+You can quit the dictionary by typing "quit"
 : *your input here*
 ```
 ### 2. the option view will show your whole dictionary
@@ -38,7 +38,7 @@ You can quot the dictionary by typing "quit"
 word:
 Tyep N for Noun, ADJ for Adjective, AV for Adverb, V for Verb, PREP for Preposition, Pro for Pronouns, CON for Conjunction, IN for Injection
 
-Part of speach: v
+Part of speech: v
 Definition: the action of consuming water
 Insert successfully
 Drink (Verb) the action of consuming water
