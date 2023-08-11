@@ -3,10 +3,10 @@ con=psycopg2.connect(database='postgres',user='postgres',password='6978',host='l
 cur=con.cursor()
 def get_input():
     inp=input('''Welcome to your personal dictionary
-              You can view the dictionary by typing "view"
-              You can add word to the dictionary by typing "add"
-              You can quot the dictionary by typing "quit"
-              : ''')
+You can view the dictionary by typing "view"
+You can add word to the dictionary by typing "add"
+You can quot the dictionary by typing "quit"
+: ''')
     return inp
 
 def view_dictionary():
@@ -17,7 +17,7 @@ def view_dictionary():
     for i in row:
         print(f"{j}. {i[1]} ({i[2]}) {i[3]}")
         j+=1
-    print("\n")
+    print('\n')
 
 def pospe(pos=""):
     global posp
@@ -45,10 +45,10 @@ def add_word(word="",pos="",definition=""):
     word = input('word: ').capitalize()
     pos=pospe()
     definition=input("Definition: ").lower()
-    print(word,pos, definition)
     cur.execute(f'''INSERT INTO DICTIONARY(ID, WORD, PART_OF_SPEACH, DEFINITION) VALUES(NEXTVAL('DICTIONARY_ID_SEQUENCE'), '{word}', '{pos}', '{definition}');''')
     con.commit()
     print("Insert successfully")
+    print(word,f'({pos})',definition,'\n')
 
 while True:
     inp = get_input()
